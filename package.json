@@ -1,0 +1,33 @@
+{
+  "name": "semana1",
+  "version": "1.0.0",
+  "description": "Primer ejercicio de node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeiverBurbano/nodejs.git"
+  },
+  "keywords": [
+    "exports",
+    "module",
+    "require"
+  ],
+  "author": "Deiver Johan Burbano Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeiverBurbano/nodejs/issues"
+  },
+  "homepage": "https://github.com/DeiverBurbano/nodejs#readme",
+  "dependencies": {
+    "sweetalert2": "^11.4.37"
+  },
+  "devDependencies": {
+    "jsonserver": "^0.1.6",
+    "nodemon": "^2.0.20"
+  }
+}
